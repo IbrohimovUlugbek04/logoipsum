@@ -1,0 +1,145 @@
+// site footer style start 
+.site-footer {
+  padding: 50px 0 30px;
+  background-color: #211f25;
+
+  &__over {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #fff;
+  }
+
+  &__kontakt {
+    margin-bottom: 37px;
+  }
+
+  &__logo-img {
+    margin-bottom: 31px;
+  }
+
+  &__list--one {
+    margin-right: 100px;
+  }
+
+  &__link {
+    font-weight: var(--main-text-weight);
+    font-size: 16px;
+    line-height: 150%;
+    color: #fff;
+  }
+
+  &-smoll {
+    margin-bottom: 10px;
+    font-weight: var(--main-subtitle-weight);
+    font-size: 16px;
+    line-height: 150%;
+    color: #fff;
+  }
+
+
+  &__form {
+    max-width: 400px;
+    width: 100%;
+    margin-bottom: 40px;
+    column-gap: 10px;
+  }
+
+  &__input {
+    max-width: 257px;
+    margin-bottom: 10px;
+    padding: 12px 28px;
+    font-family: "Roboto", sans-serif;
+    font-weight: var(--main-smoll-weight);
+    font-size: 16px;
+    line-height: 150%;
+    color: #222;
+    background-color: var(--main-dark-title);
+    border-radius: 32px;
+
+    &:focus {
+      outline: none;
+    }
+
+    &::placeholder {
+      font-family: "Roboto", sans-serif;
+      font-weight: var(--main-smoll-weight);
+      font-size: 16px;
+      line-height: 150%;
+      color: #505050;
+    }
+  }
+
+  &__button {
+    padding: 13px 28px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--main-dark-title-color);
+    background-color: var(--main-link-color);
+    border: none;
+    border-radius: 32px;
+  }
+
+  &__send-link {
+    font-weight: var(--main-smoll-weight);
+    font-size: 10px;
+    line-height: 150%;
+    color: #fff;
+  }
+
+  &__send-text {
+    font-weight: var(--main-smoll-weight);
+    font-size: 14px;
+    line-height: 150%;
+    color: #fff;
+  }
+}
+
+
+
+@media only screen and (min-width: 408px) {
+  .site-footer__input {
+    margin-bottom: 0;
+  }
+
+}
+
+@media only screen and (min-width: 500px) {
+
+  .site-footer__list--one {
+    display: flex;
+    margin-right: 0;
+  }
+
+  .site-footer__list {
+    display: flex;
+  }
+
+  .site-footer__link {
+    margin-right: 32px;
+  }
+
+  .site-footer__send-link {
+
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width:990px) {
+  .site-footer {
+    padding: 100px 0 100px;
+
+    &__over {
+      margin-bottom: 30px;
+    }
+
+    &__user {
+      margin-bottom: 20px;
+    }
+
+    &__form {
+      margin-bottom: 80px;
+    }
+  }
+}
+// site footer style finish 
