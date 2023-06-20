@@ -369,6 +369,7 @@ template {
   --main-news-text-bg: #f4f4f4;
   --main-readmore-after: url("../images/readmorelight.svg");
   --main-readmore-after-hover: url(../../images/readmorehover.svg);
+  --main-footer-bg: #211f25;
 }
 
 .dark {
@@ -391,6 +392,7 @@ template {
   --main-news-text-bg: #211f25;
   --main-readmore-after: url("../images/readmoreweit.svg");
   --main-readmore-after-hover: url("../images/readmoreweit.svg");
+  --main-footer-bg: #000;
 }
 
 /* site fonts start */
@@ -1536,7 +1538,7 @@ img {
 }
 .site-footer {
   padding: 50px 0 30px;
-  background-color: #211f25;
+  background-color: var(--main-footer-bg);
 }
 .site-footer__over {
   margin-bottom: 20px;

@@ -1,7 +1,7 @@
 // site footer style start 
 .site-footer {
   padding: 50px 0 30px;
-  background-color: #211f25;
+  background-color: var(--main-footer-bg);
 
   &__over {
     margin-bottom: 20px;
